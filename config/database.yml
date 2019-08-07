@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  host: localhost
   database: demo_production
   username: demo
   password: <%= ENV['DEMO_DATABASE_PASSWORD'] %>
